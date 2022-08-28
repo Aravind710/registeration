@@ -1,0 +1,61 @@
+<html>
+
+<head>
+    <title>Register page</title>
+    <link rel="stylesheet" href="register.css">
+    <script src="register.js"></script>
+
+</head>
+
+<body class="">
+    <h1>NAVANEET STATIONARY</h1>
+    <h1 class="h1" style="color: red;">Registeration</h1>
+    <center>
+        <fieldset style="background-color:rgb(209, 255, 159);width: 450px;">
+            <legend>Register</legend>
+            <div class="div">
+
+                <form autocomplete="off" action="login.html" onsubmit="return matchpassword()">
+                    <p>Name*</p>
+                    <input type="text" class="textwith" id="name" minlength="8" placeholder="Name" required>
+                    <p>Age*</p>
+                    <input type="number" class="textwith" id="date" placeholder="Age" min="18" max="35" required>
+                    <p>Email*</p>
+                    <input type="email" class="textwith" id="email" placeholder="Email" required>
+
+                    <p>Phone number*</p>
+                    <input type="tel" class="textwith" id="phone_number" placeholder="1234-567-890" minlength="10"
+                        maxlength="10" required>
+                    <p>Username*</p>
+                    <input type="text" class="textwith" id="uname"placeholder="username" required>
+                    <p>Password*</p>
+                    <input type="password" class="textwith" id="password" placeholder="Password" required>
+                    <p>Confirm password*</p>
+                    <input type="password" class="textwith" id="cpassword" placeholder="Confirm Password" required>
+                    <p>Gender*</p>
+                    <input type="radio" name="Gender" id="myradio" required>
+                    <label for="Male">Male</label>
+                    <input type="radio" name="Gender">
+                    <label for="Female">Female</label>
+                    <input type="radio" name="Gender">
+                    <label for="Others">Others</label>
+
+                    <p><input type="checkbox" required>Accept privacy terms&condition</input></p>
+
+
+                    <button type="Submit" class="button" style="float: center;">
+                        Submit</button>
+
+                    <button type="reset" class="button" style="float: center;">Reset</button>
+                    <p>!!Already have an account <a href="file:///D:/projects/internshala/login.html#">click here</a>!!
+                    </p>
+
+                </form>
+        </fieldset>
+    </center>
+
+
+
+</body>
+
+</html>
